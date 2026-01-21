@@ -1958,3 +1958,22 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+:root {
+    /* Define tu naranja corporativo aquí */
+    --brand-orange: #f39c12; /* Ejemplo de naranja estándar */
+}
+
+.sitename {
+    /* Estilos base del H1 */
+    font-weight: bold;
+    color: #333; /* Color base del texto */
+}
+
+.brand-accent {
+    color: var(--brand-orange);
+}
+
+/* Opcional: Ajustes específicos para el separador si fuera necesario */
+.brand-separator {
+    margin: 0 0.2em; /* Un poco de aire alrededor del punto si lo ves muy pegado */
+}
